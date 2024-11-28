@@ -101,5 +101,3 @@ No working code present in the file.
      rf_model <- randomForest(diabetes ~ ., data = train, importance = TRUE)
      predict(rf_model, test)
      ```
-
-If you'd like specific implementations or have incomplete sections that need further development, let me know!
