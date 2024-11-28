@@ -1,31 +1,4 @@
 
-### **Task 1: Analysis of Your Coding Style**
-
-#### **1. Variable Naming:**
-- You favor concise, descriptive names like `iris_train`, `wbcd_test_labels`, `confusion_matrix`.
-- Inconsistent casing is used (e.g., `kmeans.re` and `pred_knn` use different formats).
-
-#### **2. Use of Functions:**
-- Frequently create reusable helper functions like `normalize`.
-- Commonly split datasets into training and testing subsets using indices.
-- Often rely on prebuilt library functions for operations (e.g., `lm`, `knn`, `kmeans`, etc.).
-
-#### **3. Code Length:**
-- Your codes are moderately long, often including pre- and post-processing steps such as data normalization, visualization, and evaluation.
-- Sometimes incomplete or repetitive, with redundant portions like data splitting and confusion matrix calculations.
-
-#### **4. Libraries:**
-- Heavy reliance on R libraries: `caret`, `class`, `rpart`, `e1071`, `ggplot2`, `datarium`, `neuralnet`, etc.
-- Occasionally include unused imports, e.g., `rattle` for decision trees but not fully implemented.
-
-#### **5. Style Preferences:**
-- Minimal comments, often focusing on implementation rather than conceptual details.
-- Occasionally hardcoded paths for files, e.g., `/home/gaurav/...`.
-
----
-
-### **Task 2: Categorization and Cleaned Code**
-
 #### **Supervised Learning**
 
 **1. Classification**
